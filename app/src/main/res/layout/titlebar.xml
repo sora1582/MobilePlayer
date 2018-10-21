@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.sora.mobileplayer.view.TitleBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#ff3097fd"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:clickable="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:drawablePadding="3dp"
+        android:id="@+id/tv_search"
+        android:drawableLeft="@drawable/tv_search_drawable_selector"
+        android:background="@drawable/tv_search_bg_selector"
+        android:textSize="14sp"
+        android:textColor="@drawable/tv_search_textcolor_selector"
+        android:text="搜索"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <RelativeLayout
+        android:id="@+id/rl_game"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_record"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_topbanner_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</com.example.sora.mobileplayer.view.TitleBar>
